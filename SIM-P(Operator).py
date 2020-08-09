@@ -1,4 +1,4 @@
-import csv
+import csv, kurangiPoin
 
 mark = "9999"
 database = "database.csv"

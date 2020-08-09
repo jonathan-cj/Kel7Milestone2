@@ -5,7 +5,7 @@
 # semua memiliki nomor SIM yang berbeda
 # masukan pengurangan poin selalu valid
 
-def kurangiPoin(dataSIM, nomorSIM):
+def minusPoin(dataSIM, nomorSIM):
     for i in dataSIM:
         if i[0] == nomorSIM:
             if int(i[2]) != 0:
