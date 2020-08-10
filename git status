@@ -1,0 +1,25 @@
+[33mcommit bddd72cb6a5159b583601e00a5a551ef987742fb[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Rexy-Gamaliel <59910292+Rexy-Gamaliel@users.noreply.github.com>
+Date:   Mon Aug 10 20:18:35 2020 +0700
+
+    Update README.txt
+
+[1mdiff --git a/README.txt b/README.txt[m
+[1mindex 21e4fe4..1ea57d6 100644[m
+[1m--- a/README.txt[m
+[1m+++ b/README.txt[m
+[36m@@ -6,3 +6,14 @@[m [mRyandito 16519150, Fungsi kurangiPoin[m
+ Ferdy 16519082, Fungsi search nomor SIM[m
+ Relieyan 16519196, Desain UI[m
+ Rexy 16519132, UI/UX & csv[m
+[32m+[m
+[32m+[m
+[32m+[m[32mNote:[m
+[32m+[m[32mUntuk demo, diperlukan aplikasi Adobe XD dengan plug-in Google Sheets for Adobe XD yg dapat diunduh di:[m
+[32m+[m[32mhttps://googlesheetsforadobexd.impekable.com/[m
+[32m+[m
+[32m+[m[32mLoad data dari .csv ke .xd dilakukan secara manual dengan menyeleksi konten yang ingin di-update > klik refresh content.[m
+[32m+[m
+[32m+[m[32mTerdapat 2 flie .csv:[m
+[32m+[m[32m1. Data Pengendara SIM-P.csv yang berisi <No SIM>, <Nama Pengendara>, dan <Jumlah Poin>[m
+[32m+[m[32m2. Pelanggaran.csv yang berisi riwayat tanggal dan lokasi pelanggaran[m

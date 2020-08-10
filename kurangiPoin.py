@@ -6,13 +6,19 @@
 # masukan pengurangan poin selalu valid
 
 def minusPoin(dataSIM, nomorSIM):
+    print()
     for i in dataSIM:
         if i[0] == nomorSIM:
             if int(i[2]) != 0:
                 mines = int(input("Masukkan jumlah pengurangan poin : "))
                 i[2] = int(i[2]) - mines
-                print("Pengurangan poin dari Tn./Ny. "+i[1]+" sebesar "+str(mines)+" berhasil.")
-                print("Poin anda sekarang sebesar "+str(i[2]))
+                print()
+                if i[2] >= 0 :
+                    print("Pengurangan poin dari Tn./Ny. "+i[1]+" sebesar "+str(mines)+" berhasil.")
+                    print("Poin pelanggar sekarang sebesar "+str(i[2]))
+                else :
+                    print("Pengurangan poin dari Tn./Ny. "+i[1]+" sebesar "+str(mines)+" berhasil.")
+                    print("Poin pelanggar sekarang sebesar 0, silahkan ditindaklanjuti.")
             else:
-                print("Poin anda 0, silahkan pergi ke kantor terdekat.")
+                print("Poin pelanggar 0, silahkan ditindaklanjuti.")
     return dataSIM

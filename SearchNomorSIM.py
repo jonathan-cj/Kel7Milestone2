@@ -1,12 +1,16 @@
-def search(dataSIM, nomorSIM):
+def search(dataSIM):
     found_nomor = False
     while not found_nomor:
-        nomor = input("Masukkan Nomor SIM Anda: ")
+        nomor = input("Masukkan Nomor SIM Pelanggar: ")
         for i in dataSIM:
             if i[0] == nomor:
-                print(arrData[i])
+                print()
+                print("=====================================")
+                print("SIM Ditemukan. Keterangan pelanggar :")
+                print()
+                print("No. SIM : %s \nNama : %s \nJumlah Poin Sekarang : %s" %(i[0],i[1],i[2]))
                 found_nomor = True # Looping berhenti
-            else:
-                print("Maaf nomor SIM Anda tidak terdaftar dalam sistem kami. Silakan coba lagi!")
-            break
-    return data SIM
+                break
+        if not found_nomor:    
+            print("Maaf nomor SIM Pelanggar tidak terdaftar dalam sistem kami. Silakan coba lagi!")
+    return nomor
