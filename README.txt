@@ -6,6 +6,13 @@ Ryandito 16519150, Fungsi kurangiPoin
 Ferdy 16519082, Fungsi search nomor SIM
 Relieyan 16519196, Desain UI
 Rexy 16519132, UI/UX & csv
+Ari 16519044, Research Usplash API
+Leonardus 16519113, Design Model UI
+Michael Ryan 16519191, Research Tools
+Nabilah E 16519108, Research Tools
+Syifa 16519172, Research Tools
+Juan L. 16519485, Research Tools
+
 
 
 Note:
